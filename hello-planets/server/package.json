@@ -1,0 +1,17 @@
+{
+  "name": "hello-planets-v1",
+  "version": "0.1.0",
+  "dependencies": {
+    "apollo-server-express": "^2.19.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/mongodb": "^3.6.3"
+  },
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  }
+}
